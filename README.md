@@ -10,7 +10,7 @@
 
 افتح ترمنال وحط هذه الكودات 👇
 
-git clone https://github.com/moodlIMyIl/TshAkE.git
+git clone https://github.com/mortad/AKJA.git
 
 cd AKJA
 
