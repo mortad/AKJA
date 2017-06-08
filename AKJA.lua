@@ -1,10 +1,10 @@
---[[                                    Dev @lIMyIl         
-   _____    _        _    _    _____    Dev @EMADOFFICAL 
-  |_   _|__| |__    / \  | | _| ____|   Dev @h_k_a  
-    | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
-    | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
-    |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
+--[[   Dev @pompm    
+       Dev @pompm    
+       Dev @pompm  
+       Dev @pompm    
+       Dev @pompm    
+       Dev @pompm    
+              CH > @pompm    
 --]]
 serpent = require('serpent')
 serp = require 'serpent'.block
@@ -12,7 +12,7 @@ http = require("socket.http")
 https = require("ssl.https")
 http.TIMEOUT = 10
 lgi = require ('lgi')
-TSHAKE=dofile('utils.lua')
+AKJA=dofile('utils.lua')
 json=dofile('json.lua')
 JSON = (loadfile  "./libs/dkjson.lua")()
 redis = (loadfile "./libs/JSON.lua")()
@@ -1847,79 +1847,6 @@ end
   return 
 else
   
-if text == 'هلو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ٰ̲ھٓہل͜آًُوِآًُتٰ̲ہٰٰ‏‎‏ ⁾⇣✿🐼💛┊❥'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-
-if text == 'تشاكي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'نـﮧ✥ـٍعٰٓـ๋͜م تفضل🕷❤️'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شلونكم' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تٰمـہام ⚘║␙ 🎅🏿🐾 وانٓــت ࿐❥🐚💛 '
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شلونك' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' آلـْ ح ـمـِْدِّ اللّـٰھ وانٓــتــٰـہ ࿐❥ 🌎🌸'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'تمام' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دۈۋم يّےـآٱآرب ↜┇✥ 💁🏿‍♂️👅 '
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'هلاو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' هــﮧ✥ـٍہٰٓـ๋͜لاـوات  حـٰ« ࿐❥ـبي 🐹💧 '
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '😐' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' ﺸبﯿك صۜافن ؏ خالتك😹🙇🏻❤️ '
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'غنيلي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اي مو كدامك مغني قديم 😒🎋 هوه انـِۨـۛـِۨـۛـِۨي ربي كامز و تكلي غنيلي 🙄😒🕷 آإرۈحُـ✯ـہ✟  😴أنــ💤ــااااام😴  اشرف تالي وكت يردوني اغني 😒☹️🚶'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'هاي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'هاياہۖۗتֆ ̮⇣ يروہۣۗحہيۣ إنـِۧـۣۧتِـِۨـۘهہْ 💛😽😻'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
 if text == 'بوت' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
 moody = 'اول شي ولد لو بنيه؟ ثاني شي اذا ولد  امشطلعبرا وذا بنيه حياتي تعاي خاص موضوع حساس عندي😪🌚😹'
@@ -1928,388 +1855,18 @@ moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
-if text == 'اريد اكبل' then 
+
+if text == 'مرتضى' then
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'شـًٍـًٍوــًٍـًٍفـًٍــًٍـًٍلـًٍلًٍي وياك حديقه ودايح رسمي 🙇🏿💜😹'
-else 
-moody = ''
-end
+moody = 'هذا مطوري فديته @pompm'
+else
+moode = ''
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'لتزحف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دعوفه زاحف ع خالتك خلي يستفاد😕😹🙊'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'كلخرا' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'خرا ليترس حلكك/ج ياخرا يابنلخرا خختفووو ابلع😸🙊💋'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'زاحف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'زاحف ع اختك؟ كضيت عمرك جرجف🌝😹😹🌝كضيت عمرك زحف تره'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'دي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'خليني احہۣۗبہۜۧ😻ہہۖۗڱֆ ̮⇣  🌝💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'فرخ' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'وينه خلي احصره ؟🙊😹'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'تعالي خاص' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اهوو ضل ضل ساحف كبر طمك😔😹❤️'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'اكرهك' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ديله شلون اطيق خلقتك اني😾🖖🏿🕷'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'احبك' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'פـبـ⚘ـيبي 💓💧 وني هم😻🦀'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'باي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'وين مولي خلينه متونسين ֆᵛ͢ᵎᵖ ⌯﴾❥ 🐰💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'واكف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'بنلخرا وين واكف😐🏃'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'وين المدير' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ڸـﯿﺸ شتريد🙄💔🍃'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'انجب' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صﮩﮩار ستادي🐸🍃'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'تحبني' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مادري افڱﮩﮩﮩر🐸💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🌚' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ڤڍ  ﯿت ڝخٲﻣك😻🕷👄'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🙄' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '؏ينڱ نژله اﺨاف عليك/ﭻ 🙇🏻💚'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '😒' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'شــبيگ •┇✞🐤💦 حـٰ« ࿐❥ـبي 🐹'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '😳' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ها بس لا شفت خالتك الشكره 😳😹🕷'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🙁' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تعال اشكيلي اهمومك ليش ضايج 🙁😭💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🚶💔' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تعال اشكيلي اهمومك ليش ضايج 🙁😭💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🙂' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ثكيل علساس هه😪🌞'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '🌝' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مٰ̲ہٰٰنہٰٰوِٰڕٰ حہٰٰبྀ̲ہ؏ۤـٖٓہٰٰمٰ̲ہٰٰڕٰيِٰہٰٰ┊※🌝️‘’💛'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'صباحو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صباحو اشرقت وانورت 😌🍁'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'صباح الخير' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صباحووو اشرقت وانورت 😌🍁'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'كفو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'الاه كفو يبو لضلوع اه 😻😹'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '😌' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'المطلوب ؟'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'اها' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يب قابل اغشك شسالفة ضلع 😐🌝🎧'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شسمج' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اسمها جعجوعه'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شسمك' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اسمه اللمبــي 😹❤'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شوف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '👀ششوف 👀'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'مساء الخير' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مساء الخيرات اشرقت وانورت 😌🍁'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'المدرسه' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '😒🍃 الله لا يراوينه'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'منو ديحذف رسائلي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'محد 😐🍃'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'البوت واكف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'لتجذب 😒'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'غلس' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اعمل حالك/ج😴 ميت'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'حارة' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يي كولش 😭🍃🔥'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'هههه' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'ههههه' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == '😹' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'وين' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'بأرض الله الواسعـة🙄'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'كافي لغوة' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ماگـدر والله بيـة دودة😷'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'نايمين' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اني سهران احرسكـم😐🍃'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'اكو احد' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يي عيني انـي موجـود🌝🌿'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'فديت' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'فداكـ/چ ثولان العالـم😍😂'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'شكو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'كلشي وكلاشي🐸تگـول عبالك احنـة بالشورجـة🌝'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'اوف' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'سلامتـكـ/چ من الأووف يـا بعد افادي☹️💔'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'احبج' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'واليحب بلوة🙄وين الله وزحفتي تجيبلي عيونچ الحلـوة🙄🤓'
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'انتة منو' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'آني كـامل مفيد اكبر زنگين أگعدة عالحديـد😼🙌'
-else 
-moody = ''
-end
+end 
+ 
+ moody = ''
+ 
+
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 
@@ -8546,24 +8103,20 @@ end
 if text:match("^source$") or text:match("^اصدار$") or text:match("^الاصدار$") or text:match("^السورس$") or text:match("^سورس$") then
    
    local text =  [[
-<code>اهلا بك في سورس تشاكي</code>
+<code>اهلا وسهلا بك في سورس أكجا</code>
 
-<code>المطورين : </code>
+<code>المطور : </code>
 
-<b>Dev | </b>@lIMyIl
-<b>Dev | </b>@IX00XI
-<b>Dev | </b>@lIESIl
-<b>Dev | </b>@H_173
-<b>Dev | </b>@h_k_a
-<b>Dev | </b>@EMADOFFICAL
+<b>Dev | </b>@pompm
+
 
 <code>قناه السورس : </code>
 
-<b>Channel | </b>@lTSHAKEl_CH
+<b>Channel | </b>@CM_10
 
 <code>رابط Github :</code>
 
-https://github.com/moodlIMyIl/TshAkE
+https://github.com/mortad/AKJA.git
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'html')
    end
@@ -8705,11 +8258,11 @@ end
   -----------------------------------------------------------------------------------------------
 end
 
---[[                                    Dev @lIMyIl         
-   _____    _        _    _    _____    Dev @EMADOFFICAL 
-  |_   _|__| |__    / \  | | _| ____|   Dev @h_k_a  
-    | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
-    | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
-    |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
+--[[  Dev @pompm         
+      Dev @pompm
+      Dev @pompm 
+      Dev @pompm
+      Dev @pompm
+      Dev @pompm
+              CH > @CM_10
 --]]
